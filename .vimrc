@@ -105,13 +105,12 @@ set guioptions-=r
 " Set color scheme
 colorscheme mizore
 
-if !exists("syntax_on")
-  syntax on
-endif
-
-" Force load ~/.gvimrc
-" so ~/.gvimrc
+" Always highlight syntax
+syntax on
 
 " Set Airline color scheme (Doesn't work from .vimrc. Should be loaded from
 " .gvimrc, but .gvimrc is not being recognized by the terminal Vim.)
 " AirlineTheme light
+
+" Always show Airline (not only with a split)
+set laststatus=2
