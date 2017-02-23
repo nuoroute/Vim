@@ -6,9 +6,7 @@ Vim Dot Files
 * ~/.vim/colors/
 
 Vim installed with (macOS/Unix):
-'''
-$ brew install macvim --with-override-system-vim
-'''
+`$ brew install macvim --with-override-system-vim`
 
 Installed Plugins (via Vundle):
 * NERDTree
