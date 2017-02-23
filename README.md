@@ -1,6 +1,7 @@
 # Vim
 Vim Dot Files
 
+Tracking:
 * ~/.vimrc
 * ~/.gvimrc
 * ~/.vim/colors/
