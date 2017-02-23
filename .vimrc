@@ -114,3 +114,9 @@ syntax on
 
 " Always show Airline (not only with a split)
 set laststatus=2
+
+" set ruler
+" set showcmd
+"
+" List tab completion in Command Mode
+set wildmenu
