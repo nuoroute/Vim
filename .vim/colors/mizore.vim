@@ -41,9 +41,9 @@ hi Pmenu        guifg=#000000       guibg=#a6a190       ctermfg=white       cter
 hi PmenuSel     guifg=#ffffff       guibg=#133293       ctermfg=white       ctermbg=lightblue
 hi PmenuSbar    guifg=NONE          guibg=#555555       ctermfg=black       ctermbg=black
 hi PmenuThumb   guifg=NONE          guibg=#cccccc       ctermfg=gray        ctermbg=gray
-hi StatusLine   guifg=#222222       guibg=#c2bfa5       ctermfg=darkgray    ctermbg=yellow
-hi StatusLineNC guifg=#111111       guibg=#c2bfa5       ctermfg=darkgray    ctermbg=gray
-hi WildMenu     guifg=#ffffff       guibg=#133293       ctermfg=white       ctermbg=darkblue  gui=bold   cterm=bold
+hi StatusLine   guifg=#ffffff       guibg=#005eff       guisp=#005eff       gui=bold          ctermfg=15      ctermbg=27      cterm=bold
+hi StatusLineNC guifg=#1b1b24       guibg=#005eff       guisp=#707070       gui=bold          ctermfg=235     ctermbg=242     cterm=bold
+hi WildMenu     guifg=NONE          guibg=#a1a6a8   	guisp=#a1a6a8       gui=NONE          ctermfg=NONE    ctermbg=248     cterm=NONE
 hi VertSplit    guifg=#c2bfa5       guibg=#c2bfa5       ctermfg=white       ctermbg=white
 hi TabLine      guifg=#000000       guibg=#c2bfa5       ctermfg=black       ctermbg=white
 hi TabLineFill  guifg=#000000       guibg=#c2bfa5       ctermfg=black       ctermbg=white
