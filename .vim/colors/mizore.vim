@@ -44,7 +44,7 @@ hi PmenuThumb   guifg=NONE          guibg=#cccccc       ctermfg=gray        cter
 hi StatusLine   guifg=#ffffff       guibg=#005eff       guisp=#005eff       gui=bold          ctermfg=15      ctermbg=27      cterm=bold
 hi StatusLineNC guifg=#1b1b24       guibg=#005eff       guisp=#707070       gui=bold          ctermfg=235     ctermbg=242     cterm=bold
 hi WildMenu     guifg=NONE          guibg=#a1a6a8   	guisp=#a1a6a8       gui=NONE          ctermfg=NONE    ctermbg=248     cterm=NONE
-hi VertSplit    guifg=#c2bfa5       guibg=#c2bfa5       ctermfg=white       ctermbg=white
+hi VertSplit    guifg=#c2bfa5       guibg=#c2bfa5       ctermfg=black        ctermbg=green
 hi TabLine      guifg=#000000       guibg=#c2bfa5       ctermfg=black       ctermbg=white
 hi TabLineFill  guifg=#000000       guibg=#c2bfa5       ctermfg=black       ctermbg=white
 hi TabLineSel   guifg=#ffffff       guibg=#133293       ctermfg=white       ctermbg=black
@@ -79,7 +79,7 @@ hi WarningMsg   guifg=#ccae22 ctermfg=yellow    guibg=#000000 ctermbg=black  gui
 
 " syntax highlighting groups (:help group-name)
 
-hi Comment      guifg=#b0b0b0  ctermfg=gray       guibg=#000000 ctermbg=black
+hi Comment      guifg=#b0b0b0  ctermfg=gray        guibg=#000000 ctermbg=black
 hi Keyword      guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black
 hi Statement    guifg=#ffffff  ctermfg=white       guibg=#000000 ctermbg=black  gui=bold cterm=bold 
 hi StorageClass guifg=#b0ffb0  ctermfg=white       guibg=#000000 ctermbg=black  gui=bold cterm=NONE
