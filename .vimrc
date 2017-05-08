@@ -102,15 +102,17 @@ set number
 " Remove right scroll bar
 set guioptions-=r
 
+" Dark BG
+let g:background='dark'
+
 " Set color scheme
 colorscheme mizore
 
 " Always highlight syntax
 syntax on
 
-" Set Airline color scheme (Doesn't work from .vimrc. Should be loaded from
-" .gvimrc, but .gvimrc is not being recognized by the terminal Vim.)
-" AirlineTheme light
+" Set Airline color scheme
+let g:airline_theme='aurora'
 
 " Always show Airline (not only with a split)
 set laststatus=2
